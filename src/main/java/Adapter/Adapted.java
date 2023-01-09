@@ -1,7 +1,14 @@
 package Adapter;
 
 public class Adapted {
-    public void AdaptedMethod(String info) {
-        System.out.println("this is existed method " + info);
+    private String text;
+    Adapted(String text) {
+        this.text = text;
+    }
+    public void AdaptedMethod1() {
+        System.out.println("(" + text + ")");
+    }
+    public void AdaptedMethod2() {
+        System.out.println("*" + text + "*");
     }
 }

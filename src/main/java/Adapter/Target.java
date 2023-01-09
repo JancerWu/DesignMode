@@ -1,5 +1,6 @@
 package Adapter;
 
 public interface Target {
-    void targetMethod(String info);
+    void targetMethod1();
+    void targetMethod2();
 }
