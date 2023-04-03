@@ -3,7 +3,7 @@ package Memento;
 public class Memento {
     private String state;
 
-    public Memento(String state) {
+    Memento(String state) {
         this.state = state;
     }
 
@@ -11,7 +11,7 @@ public class Memento {
         return state;
     }
 
-    public void setState(String state) {
+    void setState(String state) {
         this.state = state;
     }
 }
